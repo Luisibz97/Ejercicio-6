@@ -32,3 +32,13 @@ const titleList = movieList.map(Object => { return Object.titulo });
 const directorAndTitleList = directorList.concat(titleList);
 
 const directorAndTitleList2 = [...directorList, ...titleList];
+
+console.log(movieDates);
+
+console.log(directorList);
+
+console.log(titleList);
+
+console.log(directorAndTitleList);
+
+console.log(directorAndTitleList2);
